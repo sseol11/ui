@@ -42,7 +42,9 @@ const Index = (props) => (
       <h5>What should I cite?</h5>
       <code style={STYLE.code}>{citation}</code>
       <script src="https://widget.flow.ai/w/ZjExYWZmM2UtOWY4OS00NDQ4LTk2ZDUtZGE5N2RhOTNmYzUwfDBiNGY0MTE4LTRkM2MtNGMxOS1iNjYxLWQ1ZGY1Zjk5ZTJjOQ==/flow-webclient-1.1.2.min.js"></script>
-     <h1 class="mt-5 font-weight-bold">About Evaluation</h1>
+      <!-- chat collector -->
+      <script src="https://widget.flow.ai/w/NTFkY2NhNmItMmE0OC00NmNmLWE1NTYtYmU4ZjZjMDU3ZGU0fGJmNGYyNjJkLTEyZTAtNDgwYy04MmVmLTAyMTg1YmRkNWM4Ng==/flow-webclient-1.1.2.min.js"></script>
+        <h1 class="mt-5 font-weight-bold">About Evaluation</h1>
       <p class="lead">Model responses are generated using an evaluation dataset of prompts and then uploaded to ChatEval. The responses are then 
       evaluated using a series of automatic evaluation metrics, and are compared against selected baseline/ground truth models (e.g. humans). </p>
 
